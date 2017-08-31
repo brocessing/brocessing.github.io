@@ -1,31 +1,87 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
+    transform: translateY(1rem);
   }
 
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  position: absolute;
   margin: 0;
-  padding: 50px 0 0 50px;
+  padding: 0 4rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
 }
 
 main {
   display: block;
   opacity: 0;
-  animation: fadeIn linear 1;
-  animation-duration: 800ms;
+  animation: fadeIn ease-out 1;
+  animation-duration: 500ms;
   animation-fill-mode: forwards;
 }
 
-p {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 2em;
-  font-weight: 100;
-  color: #333;
+img {
+  padding: 1rem 0;
+  width: 5rem;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #000;
   line-height: 1.4;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #999;
+  line-height: 1.4;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+a {
+  color: #999;
+  transition: color ease-in-out 50ms;
+}
+
+a:hover {
+  color: #333;
+}
+
+a:focus {
+  color: #000;
+}
+
+// a:visited {
+//   color: #F96D00;
+// }

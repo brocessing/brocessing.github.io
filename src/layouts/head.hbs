@@ -1,0 +1,67 @@
+<head>
+  <!-- We love to give you heads -->
+
+  <meta charset="utf-8">
+  <base href="{{compiler.publicPath}}">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>{{title}}</title>
+
+  {{!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> --}}
+  <meta name="description" content="{{description}}">
+
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="google-site-verification" content="cuOhLGqkH3bCXDHvlVw8gqjx8j9Hm9M3lp7Gih1bVN4">
+
+  <meta name="generator" content="bro-start">
+  <meta name="subject" content="This website gives info !">
+  <meta name="rating" content="mature">
+  <meta name="referrer" content="no-referrer">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-dns-prefetch-control" content="off">
+
+  <link rel="author" href="humans.txt">
+  <link rel="license" href="license.txt">
+  <link rel="me" href="mailto:{{email}}">
+  <link rel="index" href="https://{{url}}/">
+
+  <link rel="dns-prefetch" href="//{{url}}/">
+  <link rel="preconnect" href="https://{{url}}/">
+  <link rel="prefetch" href="https://{{url}}/">
+  <link rel="prerender" href="https://{{url}}/">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/96x96.png">
+  <link rel="apple-touch-icon" href="/favicon/180x180.png">
+  <link rel="icon" sizes="192x192" href="/favicon/192x192.png">
+
+  <meta property="og:url" content="https://{{url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:image" content="https://{{url}}/{{thumbnail}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:site_name" content="{{title}}">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="Brocessing">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@leopassionleo">
+  <meta name="twitter:url" content="https://{{url}}">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="https://{{url}}/{{thumbnail}}">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="{{title}}">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333">
+
+  {{#if compiler.isProduction}}
+  <link rel="stylesheet" href="{{compiler.hash}}.css">
+  {{/if}}
+</head>
