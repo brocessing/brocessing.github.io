@@ -3,4 +3,4 @@ Brocessing is built by 4 guys.
 Arnaud Juracek <arnaud@brocessing.men>
 Hugo Piquemal <hugo@brocessing.men>
 Antoine Puel <antoine@brocessing.men>
-Léo Ternoir <leo@brocessing.men>
+Leo Ternoir <leo@brocessing.men>
