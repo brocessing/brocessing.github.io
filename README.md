@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/logo.png" alt="logo">
+  <img src="static/logo.png" alt="logo">
 </p>
 
 <h1 align="center"><a href="https://brocessing.men">brocessing.men</a></h1>
