@@ -11,6 +11,10 @@ const contents = {
       url: `https://github.com/brocessing`
     },
     {
+      name: `Twitter`,
+      url: `https://twitter.com/brocessing_men`
+    },
+    {
       name: `Mail`,
       url: `mailto:b0ss@brocessing.men`
     }
