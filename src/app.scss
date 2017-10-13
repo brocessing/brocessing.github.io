@@ -85,3 +85,15 @@ a:focus {
 // a:visited {
 //   color: #F96D00;
 // }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.links {
+  color: red;
+  font-weight: 700;
+}
+
