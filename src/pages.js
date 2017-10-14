@@ -41,10 +41,15 @@ const links = {
       caption: `Un portfolio à contrôler à plusieurs en même temps`
     },
     {
+      name: `Superflux`,
+      url: `https://antoine.cool/projects/superflux`,
+      caption: `Commander des objets avec son visage`
+    }, 
+    {
       name: `Bonus`,
       url: `puckey-star.png`,
       caption: `Un like pas comme les autres...`
-    },   
+    }
   ]
 }
 
