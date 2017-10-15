@@ -28,27 +28,38 @@ const links = {
     {
       name: `Eyebro`,
       url: `https://brocessing.github.io/eyebro/`,
-      caption: `Un runner game qui se joue avec les sourcils`
+      caption: `Un runner game qui se joue avec les sourcils`,
+      img: `previews/eyebro.png`,
+      alt: `Preview du jeu Eyebro`
     },
     {
       name: `AR Music Experiment`,
       url: ` https://twitter.com/hugopiquemal/status/892807824908136449`,
-      caption: `Générateur de boucles musicales via réalité augmentée`
+      caption: `Générateur de boucles musicales via réalité augmentée`,
+      img: `previews/armusic.jpg`,
+      alt: `Preview de l'AR Music Experiment`
     },
     {
       name: `Arnaud Juracek [Portfolio]`,
       url: `http://arnaudjuracek.fr`,
-      caption: `Un portfolio à contrôler à plusieurs en même temps`
+      caption: `Un portfolio à contrôler à plusieurs en même temps`,
+      img: `previews/rno.jpg`,
+      alt: `Preview de arnaudjuracek.fr`
     },
     {
       name: `Superflux`,
       url: `https://antoine.cool/projects/superflux`,
-      caption: `Commander des objets avec son visage`
+      caption: `Des objets commandés avec le visage`,
+      img: `previews/superflux.jpg`,
+      alt: `Preview du projet Superflux`
     }, 
     {
-      name: `Bonus`,
-      url: `puckey-star.png`,
-      caption: `Un like pas comme les autres...`
+      name: `Three.js Neon Experiment`,
+      url: `neon01.mp4`,
+      caption: `Effet néon reproduit dans le navigateur`,
+      video: `previews/neon01.mp4`,
+      video_img: ``,
+      alt: `Vidéo de néon`
     }
   ]
 }

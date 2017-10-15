@@ -1,4 +1,6 @@
-@keyframes fadeIn {
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+ @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(1rem);
@@ -15,12 +17,12 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 4rem 0;
   padding: 0 4rem;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -31,6 +33,12 @@ main {
   animation-fill-mode: forwards;
 }
 
+video {
+  width: 50%;
+  height: auto;
+}
+
+
 img {
   padding: 1rem 0;
   width: 5rem;
@@ -40,7 +48,6 @@ img {
 h1 {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   font-size: 1rem;
   color: #000;
   line-height: 1.4;
@@ -49,7 +56,6 @@ h1 {
 p {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: #999;
@@ -63,7 +69,6 @@ ul {
 
 li {
   list-style: none;
-  font-family: sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
@@ -82,18 +87,25 @@ a:focus {
   color: #000;
 }
 
-// a:visited {
-//   color: #F96D00;
-// }
-
 .projects {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  width: 50vw;
+  margin: 20px 0;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
 }
 
 .links {
-  color: red;
+  color: #333;
   font-weight: 700;
 }
+
+.links h1:hover {
+  color: red;
+}
+
 
