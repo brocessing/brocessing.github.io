@@ -56,10 +56,10 @@ const links = {
     {
       name: `Three.js Neon Experiment`,
       url: `neon01.mp4`,
-      caption: `Effet néon reproduit dans le navigateur`,
+      caption: `Paths SVG convertis en néon 3D dans le navigateur`,
       video: `previews/neon01.mp4`,
       video_img: ``,
-      alt: `Vidéo de néon`
+      alt: `Vidéo de three.js Neon Experiment`
     }
   ]
 }
