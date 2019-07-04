@@ -1,10 +1,10 @@
 const contents = {
   title: `Brocessing`,
-  description: `Angry creative tech bureau based between Paris and Strasbourg`,
+  description: `Angry creative tech bureau based in Paris`,
   email: `b0ss@brocessing.men`,
   url: `brocessing.men`,
   thumbnail: `thumbnail.png`,
-  message: 'Angry creative tech bureau\nBased between Paris and Strasbourg',
+  message: 'Angry creative tech bureau\nBased in Paris',
   contact: [
     {
       name: `Github`,
